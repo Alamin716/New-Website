@@ -1,0 +1,59 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#header-section {
+    background-image: url(image/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.font-style {
+    text-align: center;
+    padding-top: 175px;
+}
+
+.font-style h1 {
+    font-size: 65px;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.donate {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#donate-section {
+    display: flex;
+    text-align: center;
+    margin: 0;
+}
+
+
+.list-tag {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.list-tag li {
+    display: inline;
+    text-align: center;
+    background-color: azure;
+    padding: 30px;
+    margin: 10px;
+}
+
+.list-tag1 {
+    border: 2px solid;
+    border-color: red;
+    border-radius: 10px;
+}
