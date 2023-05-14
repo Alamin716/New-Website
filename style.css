@@ -102,6 +102,7 @@ body {
 .midle-section {
     display: flex;
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .food {
@@ -122,3 +123,37 @@ body {
     margin-right: 200px;
     padding: 40px 30px 40px 30px;
 }
+
+.your-donation {
+    display: flex;
+}
+
+.your-donation-p {
+    width: 50%;
+    margin-left: 200px;
+}
+
+.your-donation-p h1 {
+    font-size: 60px;
+}
+
+.your-donation-p p {
+    font-size: 20px;
+}
+
+.contribute-link {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.donation-image {
+    width: 50%;
+    margin-left: 60px;
+}
+
+.image-donation {
+    width: 400px;
+    height: 400px;
