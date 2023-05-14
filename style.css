@@ -12,6 +12,7 @@ body {
 .font-style {
     text-align: center;
     padding-top: 175px;
+    color: white;
 }
 
 .font-style h1 {
@@ -30,6 +31,16 @@ body {
 .donate {
     text-align: center;
     margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.donate h1 {
+    font-size: 50px;
+}
+
+.donate span {
+    font-size: 20px;
+    opacity: .7;
 }
 
 #donate-section {
@@ -41,8 +52,9 @@ body {
 
 .list-tag {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
+
 
 .list-tag li {
     display: inline;
@@ -50,10 +62,63 @@ body {
     background-color: azure;
     padding: 30px;
     margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .list-tag1 {
     border: 2px solid;
     border-color: red;
     border-radius: 10px;
+}
+
+.other-amount {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.other-amount p {
+    color: black;
+    opacity: .5;
+}
+
+.other-amount hr {
+    width: 800px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.donate-now-link {
+    background-color: rgb(198, 144, 44);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.midle-section {
+    display: flex;
+    margin-top: 80px;
+}
+
+.food {
+    background-color: #F0F8FF;
+    margin-left: 200px;
+    padding: 40px 30px 40px 30px;
+}
+
+.shelter {
+    background-color: #FAF0E6;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 40px 30px 40px 30px;
+}
+
+.frame {
+    background-color: #FFF8DC;
+    margin-right: 200px;
+    padding: 40px 30px 40px 30px;
 }
